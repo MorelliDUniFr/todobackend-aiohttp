@@ -4,7 +4,16 @@
 ### Creating a virtual environment
 ```sh
 virtualenv env
+```
+
+#### Unix
+```sh
 source env/bin/activate
+```
+
+#### Windows
+```sh
+env\Scripts\activate
 ```
 
 ### Installing dependencies
@@ -14,7 +23,7 @@ pip install -r requirements.txt
 
 ### Populating the database
 ```sh
-python populate_db.py
+python todobackend/populate_db.py
 ```
 
 ### Running the server
