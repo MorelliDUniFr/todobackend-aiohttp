@@ -57,7 +57,5 @@ python3 run_server.py
 ```
 
 ## Testing the server
-Upon successfully launching, you can open up https://todospecs.thing.zone/index.html?http://localhost:8080 in your browser and test against a reference Todo-MVC implementation.
-
-
-
+Upon successfully launching, you can open up https://todospecs.thing.zone/index.html?http://localhost:8080 in your browser
+(only tested and working in **Mozilla Firefox**) and test against a reference Todo-MVC implementation.
