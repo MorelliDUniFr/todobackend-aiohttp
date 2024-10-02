@@ -4,15 +4,6 @@
 ### Creating a virtual environment
 ```sh
 virtualenv env
-```
-
-#### Unix
-```sh
-source env/bin/activate
-```
-
-#### Windows
-```sh
 env\Scripts\activate
 ```
 
