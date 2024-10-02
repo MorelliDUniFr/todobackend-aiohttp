@@ -38,7 +38,7 @@ python run_server.py
 virtualenv env
 ```
 ```sh
-source env\Scripts\activate
+source env/bin/activate
 ```
 
 **Installing dependencies**
