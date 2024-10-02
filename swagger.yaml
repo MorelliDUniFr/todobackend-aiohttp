@@ -4,7 +4,7 @@ info:
   version: 0.0.3
 servers:
   - url: http://todo.thing.zone
-  - url: http://localhost:8000
+  - url: http://localhost:8080
 tags:
   - name: todos
   - name: tags

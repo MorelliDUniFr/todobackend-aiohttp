@@ -12,7 +12,7 @@ from .views import (
 )
 
 IP = getenv('IP', '0.0.0.0')
-PORT = getenv('PORT', '8000')
+PORT = getenv('PORT', '8080')
 
 basicConfig(level=INFO)
 logger = getLogger(__name__)

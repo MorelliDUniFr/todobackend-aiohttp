@@ -10,7 +10,7 @@ class Task:
     @classmethod
     async def create_object(cls, db, content, url_for, tag_id=None):
         uuid = str(uuid4())
-        HOST = getenv('HOST', 'localhost:8000')
+        HOST = getenv('HOST', 'localhost:8080')
 
         obj = {
             '_id': uuid,
@@ -105,7 +105,7 @@ class Tag:
     @classmethod
     async def create_tag(cls, db, content, url_for, task_id=None):
         tag_id = str(uuid4())
-        HOST = getenv('HOST', 'localhost:8000')
+        HOST = getenv('HOST', 'localhost:8080')
 
         obj = {
             '_id': tag_id,
