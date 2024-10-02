@@ -6,7 +6,6 @@ from os import getenv
 MONGO_URI = getenv('MONGO_URI', 'mongodb://localhost:27017')
 DB_NAME = getenv('DB_NAME', 'todoapp')
 
-
 async def populate_db():
     client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URI)
     db = client[DB_NAME]
